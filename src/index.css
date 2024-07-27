@@ -1,19 +1,124 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+:root {
+  --Primary-Orange-color: hsl(25, 97%, 53%);
+  --Neutral-White-color: hsl(0, 0%, 100%);
+  --Neutral-LightGrey-color: rgb(149, 158, 172);
+  --Neutral-DarkBlue-color: rgb(37, 45, 55);
+  --Neutral-VeryDarkBlue-color: hsl(216, 12%, 8%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+body p {
+  font-size: 15px;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.app {
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Neutral-VeryDarkBlue-color);
+}
+
+.RatingState,
+.ThankYouState {
+  height: 24rem;
+  width: 20rem;
+  padding: 1.6rem;
+  color: var(--Neutral-White-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(37, 45, 55, 0.7);
+  border-radius: 1rem;
+}
+
+.ThankYouState {
+  align-items: center;
+}
+
+.starImage {
+  width: 0.9rem;
+}
+
+.rat,
+.star {
+  background-color: rgba(149, 158, 172, 0.1);
+  width: 2.6rem;
+  height: 2.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: var(--Neutral-LightGrey-color);
+}
+
+.RatingState .text-state1 {
+  color: var(--Neutral-LightGrey-color);
+  line-height: 1.4rem;
+  font-weight: 400;
+}
+
+.wrap-num {
+  display: flex;
+  justify-content: space-between;
+}
+
+.num {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.num:hover {
+  background-color: var(--Primary-Orange-color);
+  color: var(--Neutral-VeryDarkBlue-color);
+}
+
+.submit:hover {
+  background-color: var(--Neutral-White-color);
+  color: var(--Neutral-VeryDarkBlue-color);
+}
+
+.active {
+  background-color: var(--Neutral-White-color);
+  color: var(--Neutral-VeryDarkBlue-color);
+}
+
+.button {
+  background-color: var(--Primary-Orange-color);
+  color: var(--Neutral-VeryDarkBlue-color);
+  padding: 0.8rem;
+  width: 100%;
+  border-radius: 1.6rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.image-thank {
+  width: 10rem;
+}
+
+.wrap-title {
+  background-color: rgba(149, 158, 172, 0.1);
+  padding: 0.4rem 1.2rem;
+  border-radius: 1rem;
+}
+
+.title-state2 {
+  color: var(--Primary-Orange-color);
+  font-size: small;
+}
+
+.ThankYouState .text {
+  text-align: center;
+  color: var(--Neutral-LightGrey-color);
 }
