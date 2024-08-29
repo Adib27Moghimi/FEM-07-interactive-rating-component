@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [My solution url in Frontend mentor](https://your-solution-url.com)
-- Live Site URL: [My live site url in GitHub](https://your-live-site-url.com)
+- Live Site URL: [My live site url in Netlify](https://your-live-site-url.com)
 
 ## My process
 
