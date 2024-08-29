@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution url in Frontend mentor](https://your-solution-url.com)
-- Live Site URL: [My live site url in Netlify](https://your-live-site-url.com)
+- Solution URL: [My solution url in Frontend mentor](https://www.frontendmentor.io/solutions/creat-a-interactive-rating-component-with-react-and-css-x433lRMB28)
+- Live Site URL: [My live site url in Netlify](https://main--fem-07-interactive-rating-component.netlify.app/)
 
 ## My process
 
